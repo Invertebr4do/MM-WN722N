@@ -75,7 +75,7 @@ function update_upgrade(){
 	update=$(sudo apt update | tail -n 1 | grep -oP "\d{1,10000}" | tr -d '\n')
 
 	if [ "$update" > "0" ]; then
-		echo -e "\n${purple}█ ${gray}HAY ${purple}$update${gray} PACKAGES TO UPDATE ${purple}█${end}"; sleep 0.5
+		echo -e "\n${purple}█ ${gray}THERE ARE ${purple}$update${gray} PACKAGES TO UPDATE ${purple}█${end}"; sleep 0.5
 	fi
 
 	which xterm > /dev/null 2>&1

@@ -21,5 +21,5 @@ cd EASY-PWM && chmod +x MM-WN722N.sh
 - Y ejecutamos MM-WN722N.sh como root
 
 ```
-./MM-WN722N.sh
+sudo ./MM-WN722N.sh
 ```

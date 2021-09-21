@@ -16,7 +16,7 @@ git clone https://github.com/Invertebr4do/MM-WN722N
 - Nos metemos en el directorio, asignamos permisos de ejecución a la herramienta
 
 ```
-cd EASY-PWM && chmod +x MM-WN722N.sh
+cd MM-WN722N && chmod +x MM-WN722N.sh
 ```
 - Y ejecutamos MM-WN722N.sh como root
 

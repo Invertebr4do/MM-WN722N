@@ -220,7 +220,6 @@ function dependencies(){
 	echo -e "\n${turquoise}█ ${gray}RTL8188EUS INSTALLED SUCCESFULLY ${turquoise}█${end}"; sleep 0.6
 
 	sudo rm -r ../0 > /dev/null 2>&1
-	rmmod r8188eu.ko
 
 	banner; tput civis
 

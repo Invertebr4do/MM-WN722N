@@ -10,6 +10,8 @@ purple="\e[0;35m\033[1m"
 turquoise="\e[0;36m\033[1m"
 gray="\e[0;37m\033[1m"
 
+export DEBIAN_FRONTEND=noninteractive
+
 function ctrl_c(){
 	echo -e "\n\n${red}█ Exiting...\n${end}"
 	tput cnorm; exit 1

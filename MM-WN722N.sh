@@ -230,6 +230,7 @@ function dependencies(){
 	        read des
 		if [[ "$des" == "Y" || "$des" == "y" ]]; then
 			sudo ifconfig wlan0 up
+			airmon-ng check kill > /dev/null 2>&1
 			sudo iwconfig wlan0 mode monitor
 			status_code
 			echo -e "\n${turquoise}█ ${gray}YOU'R NOW IN MONITOR MODE ${turquoise}█${end}"; sleep 5
